@@ -1,5 +1,5 @@
 # tuxfetch
-A simple neofetch-like system info script for Linux.
+A simple information tool with a universal tux logo
 
 ## Usage
 \```sh

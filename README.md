@@ -3,7 +3,7 @@ A simple information tool with a universal tux logo
 
 ## Usage
 \```sh
-chmod +x ./tuxfetch.sh
+chmod +x ./miezfetch.sh
 \```
 
 ## Requirements

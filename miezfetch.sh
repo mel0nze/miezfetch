@@ -46,7 +46,7 @@ GPU=$(lspci | awk -F ': ' '/VGA compatible controller/ {print $2; exit}')
 # ASCII art and system info
 
 printf "${CYAN}          +MMMML               ${RESET}  ${BOLD}${GREEN}$USER${RESET}@${BOLD}${GREEN}$HOST${RESET}\n"
-printf "${CYAN}         PHIIHHIMI             ${RESET}  ------------------                 \n"
+printf "${CYAN}         PHIIHHIMI             ${RESET}  ---------------                 \n"
 printf "${CYAN}         I@IIII@Mf             ${RESET}  ${CYAN}OS:${RESET}      $OS $ARCH\n"
 printf "${CYAN}         II/   IML             ${RESET}  ${CYAN}Kernel:${RESET}  $KERNEL\n"
 printf "${CYAN}         9\_/*IM.              ${RESET}  ${CYAN}Uptime:${RESET}  $UPTIME\n"
@@ -55,7 +55,7 @@ printf "${CYAN}      dP         *HNL          ${RESET}  ${CYAN}CPU:${RESET}     
 printf "${CYAN}     +9           IHGL         ${RESET}  ${CYAN}RAM:${RESET}     $RAM\n"
 printf "${CYAN}    dL             LHHf        ${RESET}  ${CYAN}GPU:${RESET}     $GPU\n"
 printf "${CYAN}  _/°°\           l*EFN\       ${RESET}  ${CYAN}Date:${RESET}    $DATE\n"
-printf "${CYAN}  l      \b_         l*    \_     ${RESET}\n"
+printf "${CYAN}  l      \b_         l*    \_  ${RESET}\n"
 printf "${CYAN}  )        \*    dl       \    ${RESET}\n"
 printf "${CYAN}  (_        \dmmGH    _/°°°    ${RESET}\n"
 printf "${CYAN}   °°°°°°\_/    (__/°          ${RESET}\n"

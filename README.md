@@ -1,4 +1,4 @@
-# tuxfetch
+# Miezfetch
 A simple information tool with a universal tux logo
 
 ## Usage
@@ -7,5 +7,5 @@ chmod +x ./miezfetch.sh
 \```
 
 ## Requirements
-- sh
+- bash (no longer posix complient, might make it in the future)
 - Linux (uses /proc/cpuinfo and /proc/meminfo)
